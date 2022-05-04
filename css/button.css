@@ -1,18 +1,21 @@
 .button {
-    padding: .25em .5em;
-    border: 2px solid var(--cor-azul-escuro);
-    border-radius: 50%;
+    font-size: 1.6rem;
     text-decoration: none;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-
-.button:hover {
-    border: none;
 }
 
 .button:visited {
-    color: var(--cor-azul-escuro);
+    color: var(--color-dark-blue);
+}
+
+.button i {
+    padding: .25em .3em;
+    border: 2.5px solid var(--color-dark-blue);
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.button:hover i {
+    border: 2.5px solid var(--color-white);
 }
 
 .button span {
@@ -21,5 +24,4 @@
 
 .button:hover span {
     display: inline-block;
-    border-bottom: 2px dotted var(--cor-azul-escuro);
 }

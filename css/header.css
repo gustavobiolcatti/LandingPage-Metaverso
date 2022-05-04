@@ -1,0 +1,17 @@
+header {
+    position: fixed;
+    width: 100%;
+    padding: 2em 3em;
+    top: -200px;
+    background: var(--color-white);
+    box-shadow: 0 0 30px -10px var(--color-dark-gray);
+    transition: .2s;
+}
+
+.header--show {
+    top: 0;
+}
+
+header img {
+    width: 200px;
+}

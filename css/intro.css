@@ -1,0 +1,9 @@
+.intro {
+    padding: 10em 0;
+    text-align: center;
+}
+
+.intro p {
+    font-size: 2.5em;
+    font-weight: 400;
+}
