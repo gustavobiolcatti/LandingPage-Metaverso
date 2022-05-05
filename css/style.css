@@ -19,6 +19,7 @@
     --color-strong: var(--default);
     /*--color-intro: var(--white);*/
     --color-intro: var(--white);
+    --color-link_button: var(--default);
     --color-link_button--visited: var(--default);
     --color-card: var(--white);
 
