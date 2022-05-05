@@ -1,10 +1,14 @@
 header {
     position: fixed;
+    display: flex;
     width: 100%;
     padding: 2em 3em;
     top: -200px;
     background: var(--color-white);
+    align-items: center;
+    justify-content: space-between;
     box-shadow: 0 0 30px -10px var(--color-dark-gray);
+    z-index: 1;
     transition: .2s;
 }
 
