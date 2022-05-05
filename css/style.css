@@ -3,15 +3,39 @@
 :root {
     --color-aliceblue: #F0F8FF;
     --color-dark-blue: #00e;
-    --color-dark-gray: #393945;
-    --color-light-blue: #0CBBDD;
+    /*--color-dark-gray: #393945;*/
+    --color-dark-gray: #252e42;
+    --color-default: #ab4ae3;
     --color-light-gray: #CCC;
     --color-white: #FFF;
+
+    --background-header: var(--color-white);
+    --background-card: var(--color-dark-gray);
+    --background-intro: var(--color-dark-gray);
+    --background-footer: var(--color-dark-gray);
+
+    --color-font: var(--color-dark-gray);
+    --color-strong: var(--color-default);
+    --color-intro: var(--color-white);
+    --color-link_button--visited: var(--color-default);
+    --color-card: var(--color-white);
+
+    --border-subtitle: var(--color-white);
+    --border-link_button: var(--color-default);
+    --border-link_button--header: var(--color-default);
+    --border-card: var(--color-light-gray);
+    
+    --shadow-header: var(--color-dark-gray);
+    --shadow-banner: var(--color-dark-gray);
+    --shadow-banner-text: var(--color-light-gray);
+    --shadow-intro: var(--color-default);
+    --shadow-link_button--header: var(--color-default);
+    --shadow-card: var(--color-default);
 }
 
 ::selection {
-    background: var(--color-light-blue);
-    color: var(--color-aliceblue);
+    background: var(--color-default);
+    color: var(--color-white);
 }
 
 * {
@@ -24,11 +48,13 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
     width: 100%;
     height: 100%;
+    color: var(--color-font);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -46,22 +72,20 @@ body {
 }
 
 .subtitle {
-    display: inline-block;
+    /*display: inline-block;*/
     padding-bottom: .5em;
     margin-bottom: .5em;
     font-size: 5em;
-    /*font-weight: 200;*/
     font-weight: 500;
-    border-bottom: 1px dotted var(--color-dark-gray);
+    border-bottom: 1px dotted var(--border-subtitle);
 }
 
 strong {
-    color: var(--color-light-blue);
+    color: var(--color-strong);
 }
 
 p {
     margin-bottom: 1em;
     font-size: 2em;
-    /*font-weight: 500;*/
-    font-weight: 200;
+    font-weight: 300;
 }
