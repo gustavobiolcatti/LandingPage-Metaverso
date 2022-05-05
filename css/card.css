@@ -13,6 +13,11 @@
 
 .card__sep-image img {
     width: 100%;
+    animation: float 6s ease-in-out infinite;
+}
+
+.card:nth-child(even) .card__sep-image img {
+    animation: float--revert 6s ease-in-out infinite;
 }
 
 .card__sep-content {
