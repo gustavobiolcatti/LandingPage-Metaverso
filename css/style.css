@@ -1,41 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --color-aliceblue: #F0F8FF;
-    --color-dark-blue: #00e;
-    /*--color-dark-gray: #393945;*/
-    --color-dark-gray: #252e42;
-    --color-default: #ab4ae3;
-    --color-light-gray: #CCC;
-    --color-white: #FFF;
+    --aliceblue: #F0F8FF;
+    --dark-blue: #00e;
+    /*--dark-gray: #393945;*/
+    --dark-gray: #252e42;
+    --default: #ab4ae3;
+    --light-gray: #CCC;
+    --white: #FFF;
 
-    --background-header: var(--color-white);
-    --background-card: var(--color-dark-gray);
-    --background-intro: var(--color-dark-gray);
-    --background-footer: var(--color-dark-gray);
+    --background-header: var(--white);
+    --background-card: var(--dark-gray);
+    /*--background-intro: var(--dark-gray);*/
+    --background-intro: var(--dark-gray);
+    --background-footer: var(--dark-gray);
 
-    --color-font: var(--color-dark-gray);
-    --color-strong: var(--color-default);
-    --color-intro: var(--color-white);
-    --color-link_button--visited: var(--color-default);
-    --color-card: var(--color-white);
+    --color-font: var(--dark-gray);
+    --color-strong: var(--default);
+    /*--color-intro: var(--white);*/
+    --color-intro: var(--white);
+    --color-link_button--visited: var(--default);
+    --color-card: var(--white);
 
-    --border-subtitle: var(--color-white);
-    --border-link_button: var(--color-default);
-    --border-link_button--header: var(--color-default);
-    --border-card: var(--color-light-gray);
+    --border-subtitle: var(--white);
+    --border-link_button: var(--default);
+    --border-link_button--header: var(--default);
+    --border-card: var(--light-gray);
     
-    --shadow-header: var(--color-dark-gray);
-    --shadow-banner: var(--color-dark-gray);
-    --shadow-banner-text: var(--color-light-gray);
-    --shadow-intro: var(--color-default);
-    --shadow-link_button--header: var(--color-default);
-    --shadow-card: var(--color-default);
+    --shadow-header: var(--dark-gray);
+    --shadow-banner: var(--dark-gray);
+    --shadow-banner-text: var(--light-gray);
+    /*--shadow-intro: var(--default);*/
+    --shadow-intro: var(--default);
+    --shadow-link_button--header: var(--default);
+    --shadow-card: var(--default);
 }
 
 ::selection {
-    background: var(--color-default);
-    color: var(--color-white);
+    background: var(--default);
+    color: var(--white);
 }
 
 * {
@@ -52,8 +55,6 @@ html {
 }
 
 body {
-    width: 100%;
-    height: 100%;
     color: var(--color-font);
     font-family: 'Poppins', sans-serif;
 }
@@ -72,7 +73,6 @@ body {
 }
 
 .subtitle {
-    /*display: inline-block;*/
     padding-bottom: .5em;
     margin-bottom: .5em;
     font-size: 5em;
