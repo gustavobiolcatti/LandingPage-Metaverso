@@ -9,35 +9,53 @@
     color: var(--color-link_button--visited);
 }
 
-.button i {
+.button__icon {
     padding: .25em .3em;
     border: 2.5px solid var(--border-link_button);
     border-radius: 50%;
     transition: 0.2s;
 }
 
-.button:hover i {
-    border: 2.5px solid transparent;
-}
-
-.button span {
+.button__text {
     display: none;
 }
 
-.button:hover span {
+.button:hover .button__icon {
+    border: 2.5px solid transparent;
+}
+
+.button:hover .button__text {
     display: inline-block;
 }
 
 /* OTHER BUTTONS */
 
+/* BUTTON HEADER */
 .button--header {
     padding: .75em;
-    border: 2px solid var(--border-link_button--header);
-    border-radius: 30px;
+    background: var(--background-button);
+    border: 2px solid var(--border-button--header);
+    border-radius: 15px;
     font-weight: 600;
 }
 
 .button--header:hover {
     transform: scale(.95);
-    box-shadow: inset 0 0 20px -10px var(--shadow-link_button--header);
+    box-shadow: inset 0 0 20px -10px var(--shadow-button--header);
+}
+
+/* BUTTON FOOTER */
+.button--footer {
+    padding: .75em 1.5em;
+    margin-left: .25em;
+    background: var(--background-button--footer);
+    border: none;
+    border-radius: 5px;
+    color: var(--color-button--footer);
+    font-weight: 700;
+}
+
+.button--footer:hover {
+    transform: scale(.95);
+    box-shadow: inset 0 0 20px -10px var(--shadow-button--footer);
 }

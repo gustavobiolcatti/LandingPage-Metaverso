@@ -3,21 +3,21 @@
 		transform: translatey(0px);
 	}
 	50% {
-		transform: translatey(-20px);
+		transform: translatey(-40px);
 	}
 	100% {
 		transform: translatey(0px);
 	}
 }
 
-@keyframes float--revert {
+@keyframes float--reverse {
 	0% {
-		transform: translatey(-20px);
+		transform: translatey(-40px);
 	}
 	50% {
 		transform: translatey(0px);
 	}
 	100% {
-		transform: translatey(-20px);
+		transform: translatey(-40px);
 	}
 }

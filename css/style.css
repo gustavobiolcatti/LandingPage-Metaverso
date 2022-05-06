@@ -11,29 +11,32 @@
 
     --background-header: var(--white);
     --background-card: var(--dark-gray);
-    /*--background-intro: var(--dark-gray);*/
     --background-intro: var(--dark-gray);
+    --background-button: var(--white);
+    --background-button--footer: var(--default);
     --background-footer: var(--dark-gray);
 
     --color-font: var(--dark-gray);
     --color-strong: var(--default);
-    /*--color-intro: var(--white);*/
     --color-intro: var(--white);
     --color-link_button: var(--default);
     --color-link_button--visited: var(--default);
+    --color-button--footer: var(--color-footer);
+    --color-footer: var(--white);
     --color-card: var(--white);
 
     --border-subtitle: var(--white);
     --border-link_button: var(--default);
-    --border-link_button--header: var(--default);
+    --border-button--header: var(--default);
     --border-card: var(--light-gray);
+    --border-footer-social: var(--white);
     
     --shadow-header: var(--dark-gray);
     --shadow-banner: var(--dark-gray);
     --shadow-banner-text: var(--light-gray);
-    /*--shadow-intro: var(--default);*/
+    --shadow-button--header: var(--default);
+    --shadow-button--footer: var(--dark-gray);
     --shadow-intro: var(--default);
-    --shadow-link_button--header: var(--default);
     --shadow-card: var(--default);
 }
 
@@ -48,6 +51,10 @@
     outline: none;
     line-height: 1;
     box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
 }
 
 html {

@@ -21,9 +21,11 @@
     </head>
     <body>
         <header class="header--show">
-            <img src="./img/logo_maithaverso.png" alt="Logo MaithaVerso">
+            <a href="https://maitha.com.br" target="_blank" aria-label="Site da Maitha">
+                <img src="./img/logo_maithaverso.png" class="header__image" alt="Logo MaithaVerso">
+            </a>
 
-            <a href="#" aria-label="Entrar" class="button button--header">
+            <a href="#" class="button button--header" aria-label="Entrar">
                 Entrar
             </a>
         </header>
@@ -33,7 +35,7 @@
             <section class="banner">
                 <div class="container">
                     <h1 class="title">
-                        Bem vindos ao <span><strong>maitha</strong>verso</span>
+                        Bem vindos ao <span class="banner__span"><strong>maitha</strong>verso</span>
                     </h1>
                 </div>
             </section>
@@ -42,9 +44,9 @@
             <!-- INTRO -->
             <section class="intro">
                 <div class="container">
-                    <p>Processos de recrutamento e seleção cada vez mais tecnológicos e humanizados</p>
+                    <p class="intro__text">Processos de recrutamento e seleção cada vez mais tecnológicos e humanizados</p>
         
-                    <p>Interações entre recrutadores e profissionais cada vez mais próximas</p>
+                    <p class="intro__text">Interações entre recrutadores e profissionais cada vez mais próximas</p>
                 </div>
             </section>
             <!-- END INTRO -->
@@ -52,55 +54,55 @@
             <!-- BENEFITS -->
             <section class="benefits container">
                 <section class="card">
-                    <div class="card__sep-image">
-                        <img src="./img/man_notebook.png" alt="Pessoa utilizando notebook">
+                    <div class="card__box-image">
+                        <img src="./img/man_notebook.png" class="card__image" alt="Pessoa utilizando notebook">
                     </div>
 
-                    <div class="card__sep-content">
+                    <div class="card__box-content">
                         <h2 class="subtitle">Entrevistas</h2>
-                        <!--<p>Entrevista com o recrutador em sala virtual com realidade aumentada</p>-->
+                        
                         <p>Entrevista com o recrutador em sala virtual com realidade aumentada.</p>
                         <p>Cenários exclusivos e maior conexão entre as pessoas. Detalhes importantes não passarão despercebidos.</p>
 
                         <a href="#" aria-label="Saiba mais" class="button">
-                            <i class="fa-solid fa-plus"></i>
-                            <span>Saiba mais</span>
+                            <i class="button__icon fa-solid fa-plus"></i>
+                            <span class="button__text">Saiba mais</span>
                         </a>
                     </div>
                 </section>
 
                 <section class="card">
-                    <div class="card__sep-image">
-                        <img src="./img/man_virtual_painel.png" alt="Pessoa painel virtual">
+                    <div class="card__box-image">
+                        <img src="./img/man_virtual_painel.png" class="card__image" alt="Pessoa painel virtual">
                     </div>
 
-                    <div class="card__sep-content">
+                    <div class="card__box-content">
                         <h2 class="subtitle">Avaliações</h2>
-                        <!--<p>Teste técnico em tempo real em ambiente de desenvolvimento virtual</p>-->
+    
                         <p>Teste técnico em tempo real em ambiente de desenvolvimento virtual.</p>
                         <p>Maior facilidade de mostrar e explicar o que está sendo feito e porque está sendo feito.</p>
 
                         <a href="#" aria-label="Saiba mais" class="button">
-                            <i class="fa-solid fa-plus"></i>
-                            <span>Saiba mais</span>
+                            <i class="button__icon fa-solid fa-plus"></i>
+                            <span class="button__text">Saiba mais</span>
                         </a>
                     </div>
                 </section>
 
                 <section class="card">
-                    <div class="card__sep-image">
-                        <img src="./img/man_virtual.png" alt="Pessoa utilizando notebook">
+                    <div class="card__box-image">
+                        <img src="./img/man_virtual.png" class="card__image" alt="Pessoa utilizando notebook">
                     </div>
 
-                    <div class="card__sep-content">
+                    <div class="card__box-content">
                         <h2 class="subtitle">Onboarding</h2>
-                        <!--<p>Processo de onboarding com dinâmicas on-line e apresentação de vídeos institucionais em realidade virtual</p>-->
+                        
                         <p>Processo de onboarding 3D com dinâmicas e apresentações de vídeos instituicionais.</p>
                         <p>Comunicação e acolhimento mais eficiente e interações didáticas.</p>
 
                         <a href="#" aria-label="Saiba mais" class="button">
-                            <i class="fa-solid fa-plus"></i>
-                            <span>Saiba mais</span>
+                            <i class="button__icon fa-solid fa-plus"></i>
+                            <span class="button__text">Saiba mais</span>
                         </a>
                     </div>
                 </section>
@@ -109,9 +111,46 @@
         </main>
 
         <footer>
-            <section class="container">
-
-            </section>
+            <div class="container">
+                <section class="footer__box footer__box--contact">
+                    <p class="footer__subtitle">Newsletter</p>
+    
+                    <form class="footer__form">
+                        <input type="email" class="footer__form-input" id="email" placeholder="e-mail@dominio.com.br" />
+                        <button type="submit" class="button--footer">Enviar</button>
+                    </form>
+                </section>
+    
+                <section class="footer__box footer__box--social">
+                    <p class="footer__subtitle">Siga-nos</p>
+    
+                    <nav class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="https://www.facebook.com/maithatech" target="_blank" aria-label="Facebook da Maitha">
+                                <i class="footer__social-icon fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="https://www.instagram.com/maithatech/" target="_blank" aria-label="Instagram da Maitha">
+                                <i class="footer__social-icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="https://www.linkedin.com/company/maitha-tech/" target="_blank" aria-label="LinkedIn da Maitha">
+                                <i class="footer__social-icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="https://www.youtube.com/channel/UCnmuKv7OD9-U5hPJS5GwV9w" target="_blank" aria-label="YouTube da Maitha">
+                                <i class="footer__social-icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                    </nav>
+                </section>
+            </div>
         </footer>
 
         <script src="https://kit.fontawesome.com/187a46bbf0.js" crossorigin="anonymous"></script>

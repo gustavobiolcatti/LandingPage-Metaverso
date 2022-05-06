@@ -7,21 +7,20 @@
     justify-content: space-around;
 }
 
-.card__sep-image {
-    width: 20%;
+.card__box-image {
+    width: 30%;
 }
 
-.card__sep-image img {
+.card__image {
     width: 100%;
     animation: float 6s ease-in-out infinite;
 }
 
-.card:nth-child(even) .card__sep-image img {
-    animation: float--revert 6s ease-in-out infinite;
+.card:nth-child(even) .card__image {
+    animation: float--reverse 6s ease-in-out infinite;
 }
 
-.card__sep-content {
-    position: relative;
+.card__box-content {
     width: 50%;
     padding: 3em;
     background: var(--background-card);
@@ -31,7 +30,7 @@
     transition: 0.2s;
 }
 
-.card__sep-content:hover {
+.card__box-content:hover {
     transform: translateY(-10px);
     box-shadow: 40px 40px 0 var(--shadow-card);
 }

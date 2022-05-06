@@ -5,7 +5,7 @@
     box-shadow: inset 0 0 200px -50px #000;
 }
 
-.intro p {
+.intro__text {
     color: var(--color-intro);
     text-shadow: 0 0 10px var(--shadow-intro);
     font-size: 2.5em;

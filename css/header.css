@@ -16,6 +16,6 @@ header {
     top: 0;
 }
 
-header img {
+.header__image {
     width: 200px;
 }
