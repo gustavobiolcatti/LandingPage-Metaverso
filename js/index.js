@@ -8,4 +8,4 @@ window.onwheel = e => {
         // Scroll-up
         header.classList.add("header--show")
     }
-  }
+}

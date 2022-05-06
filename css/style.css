@@ -3,7 +3,7 @@
 :root {
     --aliceblue: #F0F8FF;
     --dark-blue: #00e;
-    /*--dark-gray: #393945;*/
+    /* --dark-gray: #393945; */
     --dark-gray: #252e42;
     --default: #ab4ae3;
     --light-gray: #CCC;
@@ -96,4 +96,8 @@ p {
     margin-bottom: 1em;
     font-size: 2em;
     font-weight: 300;
+}
+
+a:visited {
+    color: var(--default);
 }

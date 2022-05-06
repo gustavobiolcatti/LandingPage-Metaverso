@@ -21,3 +21,28 @@
 		transform: translatey(-40px);
 	}
 }
+
+@keyframes float__background {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-10px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+	
+}
+
+@keyframes float__background--reverse {
+	0% {
+		transform: translatey(-10px);
+	}
+	50% {
+		transform: translatey(0px);
+	}
+	100% {
+		transform: translatey(-10px);
+	}
+}

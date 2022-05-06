@@ -1,0 +1,31 @@
+.benefits {
+    position: relative;
+}
+
+.benefits::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: -350px;
+    bottom: -120px;
+    background: url(../img/oculus_vr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: float__background--reverse 6s ease-in-out infinite;
+}
+
+.benefits::after {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    top: -150px;
+    right: -330px;
+    background: url(../img/man_oculus_vr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: float__background--reverse 6s ease-in-out infinite;
+}

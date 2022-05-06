@@ -5,14 +5,10 @@
     transition: 0.2s;
 }
 
-.button:visited {
-    color: var(--color-link_button--visited);
-}
-
 .button__icon {
     padding: .25em .3em;
     border: 2.5px solid var(--border-link_button);
-    border-radius: 50%;
+    border-radius: 50%; 
     transition: 0.2s;
 }
 
@@ -27,8 +23,6 @@
 .button:hover .button__text {
     display: inline-block;
 }
-
-/* OTHER BUTTONS */
 
 /* BUTTON HEADER */
 .button--header {
