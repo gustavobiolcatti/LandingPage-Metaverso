@@ -10,32 +10,25 @@ footer .container {
     justify-content: center;
 }
 
+.footer__copyright {
+    margin: 0;
+}
+
 .footer__box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.footer__subtitle {
-    font-size: 1.5em;
-    margin-bottom: 2em;
-}
-
-.footer__form {
-    display: flex;
-}
-
-.footer__form-input {
-    width: 300px;
-    padding: .75em 1.5em;
-    border: none;
-    border-radius: 5px;
-}
-
 .footer__box--social {
     padding-left: 3em;
     margin-left: 3em;
     border-left: 1px solid var(--border-footer-social);
+}
+
+.footer__subtitle {
+    font-size: 1.5em;
+    margin-bottom: 2em;
 }
 
 .footer__social {

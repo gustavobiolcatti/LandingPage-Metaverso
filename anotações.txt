@@ -1,18 +1,3 @@
-- O que é o metaverso?
-
-- Processos de recrutamento e seleção cada vez mais tecnológicos e humanizados. Interações entre recrutadores e profissionais cada vez mais próximas
-
-- Onboarding no metaverso
-    - Receber os candidatos
-    - Acompanhamento nos primeiros dias
-
-- Entrevista com o recrutador em sala virtual com realidade aumentada
-
-- Teste técnico em tempo real em ambiente de desenvolvimento virtual
-
-- Processo de onboarding com dinâmicas on-line e apresentação de vídeos institucionais em realidade virtual
-
-
 ## REFERÊNCIAS
 
 https://about.facebook.com/br/meta/

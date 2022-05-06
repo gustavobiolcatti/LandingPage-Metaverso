@@ -1,0 +1,16 @@
+.form__input {
+    display: block;
+    width: 300px;
+    padding: .75em 1.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+.form__input--contact {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.form__input--newsletter {
+    width: 80%;
+}

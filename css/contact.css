@@ -1,0 +1,48 @@
+.contact {
+    padding: 5em 0;
+    background: url(../img/background/bg_contact.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--color-contact);
+    box-shadow: inset 0 0 500px 100px #000;
+}
+
+.contact .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.contact__box {
+    width: 40%;
+    padding: 3.5em;
+    border-radius: 15px;
+    backdrop-filter: /*blur(1em)*/ brightness(.5);
+}
+
+.contact__form {
+    width: 100%;
+    display: inline-block;
+}
+
+.contact__image {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
+
+.contact__text {
+    margin: 2em 0;
+    line-height: 1.2em;
+    text-align: center;
+}
+
+/* NEWSLETTER */
+.contact__box--newsletter {
+    align-self: flex-end;
+}
+
+.contact__form--nesletter {
+    display: flex;
+}

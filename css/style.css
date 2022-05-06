@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 :root {
-    --aliceblue: #F0F8FF;
     --dark-blue: #00e;
-    /* --dark-gray: #393945; */
     --dark-gray: #252e42;
     --default: #ab4ae3;
     --light-gray: #CCC;
@@ -22,6 +20,7 @@
     --color-link_button: var(--default);
     --color-link_button--visited: var(--default);
     --color-button--footer: var(--color-footer);
+    --color-contact: var(--white);
     --color-footer: var(--white);
     --color-card: var(--white);
 
@@ -78,6 +77,16 @@ body {
     margin: 2.5em 0;
     font-size: 5em;
     font-weight: 200;
+}
+
+.title--form {
+    margin: 0 0 1em;
+    font-size: 2.5em;
+}
+
+.title--contact {
+    margin: 0 0 1em;
+    text-align: center;
 }
 
 .subtitle {

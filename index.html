@@ -7,26 +7,28 @@
 
         <title>Maithaverso</title>
 
-        <link rel="shortcut icon" href="./img/icon/favicon_maitha.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="./img/icon/favicon_maitha.ico" type="image/x-icon" />
 
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/animation.css">
+        <link rel="stylesheet" href="./css/button.css">
+        <link rel="stylesheet" href="./css/input.css">
         <link rel="stylesheet" href="./css/header.css">
         <link rel="stylesheet" href="./css/banner.css">
         <link rel="stylesheet" href="./css/intro.css">
         <link rel="stylesheet" href="./css/benefits.css">
         <link rel="stylesheet" href="./css/card.css">
-        <link rel="stylesheet" href="./css/button.css">
+        <link rel="stylesheet" href="./css/contact.css">
         <link rel="stylesheet" href="./css/footer.css">
         <link rel="stylesheet" href="./css/responsive.css">
     </head>
     <body>
         <header class="header--show">
             <a href="https://maitha.com.br" target="_blank" aria-label="Site da Maitha">
-                <img src="./img/logo_maithaverso.png" class="header__image" alt="Logo MaithaVerso">
+                <img src="./img/logo_maithaverso.png" class="header__image" alt="Logo MaithaVerso" />
             </a>
 
-            <a href="#" class="button button--header" aria-label="Entrar">
+            <a href="#" class="button button--light" aria-label="Entrar">
                 Entrar
             </a>
         </header>
@@ -109,22 +111,46 @@
                 </article>
             </section>
             <!-- END BENEFITS -->
+
+            <!-- CONTACT -->
+            <section class="contact">
+                <h2 class="title title--contact">Contato</h2>
+                
+                <div class="container">
+                    <section class="contact__box">
+                        <img src="./img/logo_maithaverso--light.png" class="contact__image" alt="Logo MaithaVerso" />
+
+                        <p class="contact__text">
+                            Entre em contato com nosso time de especialistas e agende uma conversa para tirar todas as dúvidas sobre nossas soluções 
+                        </p>
+
+                        <h3 class="title title--form">Contate-nos</h3>
+                        <form class="contact__form">
+                            <input class="form__input form__input--contact" type="email" name="email" placeholder="E-mail..." />
+                            <input class="form__input form__input--contact" type="text" name="assunto" placeholder="Assunto..." />
+                            <textarea class="form__input form__input--contact" rows="10" placeholder="Mensagem..."></textarea>
+                            <button type="submit" class="button--dark button--large">Enviar</button>
+                        </form>
+                    </section>
+
+                    <section class="contact__box contact__box--newsletter">
+                        <h3 class="title title--form">Newsletter</h3>
+        
+                        <form class="contact__form contact__form--nesletter">
+                            <input type="email" class="form__input form__input--newsletter" id="email" placeholder="e-mail@dominio.com.br" />
+                            <button type="submit" class="button--dark">Assinar</button>
+                        </form>
+                    </section>
+                </div>
+            </section>
+            <!-- END CONTACT -->
         </main>
 
         <footer>
             <div class="container">
-                <section class="footer__box footer__box--contact">
-                    <p class="footer__subtitle">Newsletter</p>
-    
-                    <form class="footer__form">
-                        <input type="email" class="footer__form-input" id="email" placeholder="e-mail@dominio.com.br" />
-                        <button type="submit" class="button--footer">Enviar</button>
-                    </form>
-                </section>
+                <p class="footer__copyright">© Maithaverso - 2022</p>
     
                 <section class="footer__box footer__box--social">
-                    <p class="footer__subtitle">Siga-nos</p>
-    
                     <nav class="footer__social">
                         <li class="footer__social-item">
                             <a href="https://www.facebook.com/maithatech" target="_blank" aria-label="Facebook da Maitha">
