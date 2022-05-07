@@ -18,7 +18,7 @@
     width: 40%;
     padding: 3.5em;
     border-radius: 15px;
-    backdrop-filter: /*blur(1em)*/ brightness(.5);
+    backdrop-filter: brightness(.5);
 }
 
 .contact__form {
@@ -26,7 +26,7 @@
     display: inline-block;
 }
 
-.contact__image {
+.contact__logo {
     display: block;
     width: 200px;
     margin: auto;
