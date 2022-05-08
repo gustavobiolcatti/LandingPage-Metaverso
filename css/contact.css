@@ -46,3 +46,7 @@
 .contact__form--nesletter {
     display: flex;
 }
+
+.contact__form--nesletter .button {
+    margin-left: .5em;
+}
